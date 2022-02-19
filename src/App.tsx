@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Todo from "./components/todo";
 const App: React.FC = () => {
   return (
     <>
+      <Todo />
     </>
   );
 }
